@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	height: 700px;
+	width: 500px;
+}
+
+.box-1::after {
+	content: ' ';
+	position: absolute;
+	left: 70%;
+	top: 0;
+	height: 20px;
+	width: 20px;
+	background: #f97398;
+}
+
+.box-2::after {
+	content: ' ';
+	position: absolute;
+	left: 50px;
+	top: 30px;
+	height: 7.5px;
+	width: 7.5px;
+	border: 10px solid #0664e0;
+	transform: rotateZ(-45deg);
+}
+
+.box-3::after {
+	content: ' ';
+	position: absolute;
+	right: 0;
+	top: 100px;
+	height: 15px;
+	width: 15px;
+	border: 10px solid #f97398;
+}
+
+.box-4::after {
+	content: ' ';
+	position: absolute;
+	left: 15px;
+	top: 150px;
+	height: 30px;
+	width: 30px;
+	border: 10px solid #f80348;
+	transform: rotateZ(-10deg);
+}
+
+.box-5::after {
+	content: ' ';
+	position: absolute;
+	right: 100px;
+	top: 240px;
+	height: 10px;
+	width: 10px;
+	background: #0664e0;
+	transform: rotateZ(-45deg);
+}
+
+.circle::after {
+	content: ' ';
+	position: absolute;
+	right: 75px;
+	top: 300px;
+	height: 55px;
+	width: 55px;
+	border: 10px solid #f0ad18;
+	border-radius: 50%;
+	filter: blur(2px);
+	/*background: #0664e0;*/
+	transform: rotateZ(-45deg);
+	z-index: 10;
+}
+
+.text-1::after {
+	content:'30';
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	color: #007ffa;
+	font-size: 275px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+}
+
+.text-2::after {
+	content:'HOURS';
+	position: absolute;
+	left: 110px;
+	top: 165px;
+	color: black;
+	font-size: 75px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+}
+
+.text-3::after {
+	content:'OF ...';
+	position: absolute;
+	left: 110px;
+	top: 225px;
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+}
+
+.text-4::after {
+	content:'DESIGNING / BUILDING / CODING / HACKING';
+	position: absolute;
+	left: 40px;
+	top: 300px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+}
+
+.text-5::after {
+	content:'NETWORKING / FRIENDS / MENTORS / COMPETITIONS';
+	position: absolute;
+	left: 40px;
+	top: 325px;
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+	letter-spacing: -0.4px;
+}
+
+.text-6::after {
+	content:'COFFEE / TREE / GREEN TEA / FOOD / SNACKS / SWAGS / T-SHIRTS';
+	position: absolute;
+	left: 40px;
+	top: 345px;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+	letter-spacing: -0.5px;
+}
+
+.text-7::after {
+	content:'SUPER FAST INTERNET / TALKS / DID WE MENTION GREEN TEA? / PRIZES / BRAND NEW APIs';
+	position: absolute;
+	left: 40px;
+	top: 360px;
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+	letter-spacing: -0.33px;
+}
+
+.text-8::after {
+	content:'AND / A / WHOLE / LOT / MORE';
+	position: absolute;
+	left: 40px;
+	top: 372.5px;
+	color: black;
+	font-size: 8px;
+	font-weight: bold;
+	font-family: sans-serif;
+	line-height: 250px;
+}
+
+.box-6::after {
+	content: ' ';
+	position: absolute;
+	left: 165px;
+	top: 492.5px;
+	height: 8px;
+	width: 300px;
+	background: black;
+}
